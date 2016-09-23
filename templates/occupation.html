@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <h1>{{head}}</h1>
+    {% for i in links %}
+    <a href = '{{i}}'>Home</a>
+    {% endfor %}
+
+    <p> Your future job is :</p>
+    <h4>{{randChoice}}</h4>
+    <table>
+    {% for i in table %}
+      <tr>
+	<td> {{i}} </td>
+	<td> {{table[i]}} </td>
+      </tr>
+    {% endfor %}
+    </table>
+  </body>
+
+  
+</html>

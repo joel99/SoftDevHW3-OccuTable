@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Test page</title>
+  </head>
+  <body>
+    <h1>ABC</h1>
+    {% for i in link %}
+    <a href = '{{i}}'>link</a>
+    {% endfor %}
+    <ul>
+      <li> Lol </li>
+      <li> not ok </li>
+    </ul>
+    <table>
+      <th>
+	<td>wat</td>
+      </th>
+      <tr>
+	<td> wat content</td>
+      </tr>
+    </table>
+  </body>
+
+  
+</html>
+
